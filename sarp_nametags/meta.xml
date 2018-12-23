@@ -1,0 +1,9 @@
+<meta>
+	<!--client-->
+	<script src="client/nametags.luac" type="client" />
+	
+	<!--assets-->
+	<file src="assets/Whitney-Medium.ttf" />
+	<file src="assets/typing.png" />
+	<file src="assets/afk.png" />
+</meta>

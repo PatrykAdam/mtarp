@@ -1,0 +1,15 @@
+<meta>
+    <oop>true</oop>
+    <script src="client/main.lua" type="client" />
+    <script src="server/main.lua" type="server" />
+    <export function="create3DSound" type="client" />
+    <export function="destroy3DSound" type="client" />
+    <export function="setSound3DEffect" type="client"/>
+    <export function="getSound3DEffects" type="client"/>
+    <export function="setSound3DPosition" type="client"/>
+    <export function="getSound3DPosition" type="client"/>
+    <export function="setSound3DInterior" type="client"/>
+    <export function="getSound3DInterior" type="client"/>
+    <export function="setSound3DDimension" type="client"/>
+    <export function="getSound3DDimension" type="client"/>        
+</meta>

@@ -1,0 +1,8 @@
+<meta>
+	<!--client-->
+	<script src="client/scoreboard.luac" type="client" />
+
+	<!--assets-->
+	<file src="assets/ScorBoardHDtlo.png" />
+	<file src="assets/Whitney-Medium.ttf" />
+</meta>

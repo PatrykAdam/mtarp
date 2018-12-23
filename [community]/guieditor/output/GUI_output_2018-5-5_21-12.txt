@@ -1,0 +1,20 @@
+
+GUIEditor = {
+    gridlist = {},
+    window = {},
+    button = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+local screenW, screenH = guiGetScreenSize()
+        GUIEditor.window[1] = guiCreateWindow((screenW - 361) / 2, (screenH - 386) / 2, 361, 386, "Panel zgłoszeń", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.gridlist[1] = guiCreateGridList(9, 29, 342, 309, false, GUIEditor.window[1])
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Kategoria", 0.3)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Gracz", 0.3)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Treść", 0.3)
+        GUIEditor.button[1] = guiCreateButton(21, 350, 133, 26, "Przyjmij zgłoszenie", false, GUIEditor.window[1])
+        GUIEditor.button[2] = guiCreateButton(208, 350, 133, 26, "Zamknij", false, GUIEditor.window[1])    
+    end
+)

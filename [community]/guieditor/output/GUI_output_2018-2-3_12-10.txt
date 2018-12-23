@@ -1,0 +1,25 @@
+
+GUIEditor = {
+    button = {},
+    window = {},
+    edit = {},
+    label = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(0.41, 0.42, 0.19, 0.16, "Bankomat", true)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+        guiSetAlpha(GUIEditor.window[1], 0.78)
+
+        GUIEditor.label[1] = guiCreateLabel(0.05, 0.14, 0.91, 0.20, "Stan konta: 2500$", true, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[1], "default-bold-small")
+        guiLabelSetHorizontalAlign(GUIEditor.label[1], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[1], "center")
+        GUIEditor.edit[1] = guiCreateEdit(0.06, 0.38, 0.46, 0.21, "", true, GUIEditor.window[1])
+        GUIEditor.label[2] = guiCreateLabel(0.54, 0.38, 0.07, 0.18, "$", true, GUIEditor.window[1])
+        guiLabelSetHorizontalAlign(GUIEditor.label[2], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[2], "center")
+        GUIEditor.button[1] = guiCreateButton(0.04, 0.76, 0.44, 0.17, "Zamknij", true, GUIEditor.window[1])
+        GUIEditor.button[2] = guiCreateButton(0.51, 0.76, 0.45, 0.17, "Wypłać", true, GUIEditor.window[1])    
+    end
+)

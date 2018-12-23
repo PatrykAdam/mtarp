@@ -1,0 +1,20 @@
+<meta>
+    <oop>true</oop>
+    <include resource="sarp_sounds" />
+
+    <script src="client/data.lua" type="client" />
+    <script src="client/stream.lua" type="client" />
+
+	<file src="assets/sounds/fdsiren.wav" type="client"/>
+	<file src="assets/sounds/fdsiren2.wav" type="client"/>
+	<file src="assets/sounds/fdsiren3.wav" type="client"/>
+	<file src="assets/sounds/POLICE_WARNING.wav" type="client"/>
+	<file src="assets/sounds/polsiren.wav" type="client"/>
+	<file src="assets/sounds/polsiren2.wav" type="client"/>
+	<file src="assets/sounds/polsiren3.wav" type="client"/>
+	<file src="assets/sounds/siren.wav" type="client"/>
+	<file src="assets/sounds/siren2.wav" type="client"/>
+	<file src="assets/sounds/siren3.wav" type="client"/>  
+	<file src="assets/sounds/ice_cream.wav" type="client"/> 
+	
+</meta>

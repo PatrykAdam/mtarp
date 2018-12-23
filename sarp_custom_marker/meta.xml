@@ -1,0 +1,10 @@
+<meta>
+	<!--client-->
+	<script src="client/main.lua" type="client" />
+
+	<!--assets-->
+	<file src="assets/enter.png" />
+	<file src="assets/exit.png" />
+	<file src="assets/document.png" />
+	<file src="assets/Whitney-Medium.ttf" />
+</meta>

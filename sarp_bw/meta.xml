@@ -1,0 +1,7 @@
+<meta>
+	<!--server-->
+	<script src="server/bw.lua" type="server" />
+
+	<!--client-->
+	<script src="client/bw.luac" type="client" />
+</meta>

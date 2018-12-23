@@ -1,0 +1,11 @@
+<meta>
+	<!--server-->
+	<script src="server/anims.lua" type="server" />
+
+	<!--client-->
+	<script src="client/anims.luac" type="client" />
+	<script src="client/position.luac" type="client" />
+
+	<!--assets-->
+	<file src="assets/bg.png" />
+</meta>

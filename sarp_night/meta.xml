@@ -1,0 +1,10 @@
+<meta>
+	<info name="Night Shader" description="Fast Night Fade Shader" version="0.0.2" type="script" />
+	<min_mta_version client="1.3.3" server="1.3.3" />
+	<script src="client/switch.lua" type="client" />
+	<script src="client/RTPool.lua" type="client" />
+	<script src="client/night.lua" type="client" />
+
+	<file src="client/fx/night.fx" type="client" cache="false" />
+	<file src="client/fx/mta-helper.fx" type="client" cache="false" />
+</meta>

@@ -1,0 +1,43 @@
+<meta>
+	<!--server-->
+	<oop>true</oop>
+	<min_mta_version client="1.5.5" server="1.5.5" />
+	<script src="server/cmd.lua" type="server" />
+	<script src="server/functions.lua" type="server" />
+	<script src="server/offers.lua" type="server" />
+	<script src="server/description.lua" type="server" />
+	<script src="server/events.lua" type="server" />
+	<script src="server/bus.lua" type="server" />
+
+	<!--client-->
+	<script src="client/stats.luac" type="client" />
+	<script src="client/description.luac" type="client" />
+	<script src="client/offers.luac" type="client" />
+	<script src="client/walk.luac" type="client" />
+	<script src="client/walkStyle.luac" type="client" />
+	<script src="client/id.luac" type="client" />
+	<script src="client/admins.luac" type="client" />
+	<script src="client/report.luac" type="client" />
+	<script src="client/kup.luac" type="client" />
+	<script src="client/afk.luac" type="client" />
+	<script src="client/akceptujsmierc.luac" type="client" />
+	<script src="client/kupSkin.luac" type="client" />
+	<script src="client/bus.luac" type="client" />
+	<script src="client/gym.luac" type="client" />
+	<script src="client/spawn.luac" type="client" />
+	<script src="client/head.luac" type="client" />
+
+	<!--shared-->
+	<script src="shared.lua" type="shared" />
+	<file src="busList.xml" type="shared" />
+
+	<export function="getDistanceToElement" type="server" />
+	<export function="hexToRGB" type="client" />
+
+	<!--assets-->
+	<file src="assets/Lato-Light.ttf" />
+	<file src="assets/Lato-Regular.ttf" />
+	<file src="assets/button_offer.png" />
+	<file src="assets/afkikonka.png" />
+	<file src="assets/background.jpg" />
+</meta>

@@ -1,0 +1,65 @@
+<meta>
+	<min_mta_version client="1.5.5" server="1.5.5" />
+
+	<!--server-->
+	<script src="server/auth.lua" type="server" />
+	<script src="server/chat.lua" type="server" />
+	<script src="server/main.lua" type="server" />
+	<script src="server/players.lua" type="server" />
+	<script src="server/functions.lua" type="server" />
+	<script src="server/mtaID.lua" type="server" />
+	
+	<!--client-->
+	<script src="client/newAuth.luac" type="client" />
+	<script src="client/chatOOC.luac" type="client" />
+	<script src="client/editbox.luac" type="client" />
+	<script src="client/main.luac" type="client" />
+
+	<!--shared-->
+	<script src="shared.lua" type="shared" cache="false" />
+	
+	<!--assets-->
+	<file src="assets/loginbackgorund.png" />
+	<file src="assets/button_login.png" />
+	<file src="assets/active_zapamietajmnie.png" />
+	<file src="assets/inactive_zapamietajmnie.png" />
+	<file src="assets/music.mp3" />
+	<file src="assets/Arial-Bold.ttf" />
+	<file src="assets/blurH.fx" type="client" />
+	<file src="assets/blurV.fx" type="client" />
+	<file src="assets/Lato-Regular.ttf"/>
+	<file src="assets/Wiki-background.jpg" />
+	<file src="assets/chselect_background.png" />
+	<file src="assets/chselect_hpbar.png" />
+	<file src="assets/chselect_hpbaractive.png" />
+	<file src="assets/chselect_info.png" />
+	<file src="assets/Varela-Regular.ttf" />
+	<file src="assets/char_groups.png" />
+	<file src="assets/char_car.png" />
+	<file src="assets/char_achi.png" />
+	<file src="assets/char_items.png" />
+	
+	<!--export-->
+	<export function="sendMessage" type="server" />
+	<export function="dxCreateEdit" type="client" />
+	<export function="renderEditbox" type="client" />
+	<export function="getAvatar" type="server" />
+	<export function="getPlayerFromID" type="server" />
+	<export function="getPlayerFromID" type="client" />
+	<export function="loadMemberGroup" type="server" />
+	<export function="reloadMemberGroup" type="server" />
+	<export function="playerSendMessage" type="server" />
+	<export function="savePlayer" type="server" />
+	<export function="getPlayerRealName" type="shared" />
+	<export function="setPlayerData" type="server" />
+	<export function="getPlayerData" type="server" />
+	<export function="isPlayerLogged" type="server" />
+	<export function="givePlayerCash" type="server" />
+	<export function="getPlayerElement" type="server" />
+	<export function="getPlayersInGroup" type="server" />
+	<export function="bitAND" type="shared" />
+	<export function="RGBToHex" type="server" />
+	<export function="havePlayerDocument" type="server" />
+	<export function="wordBreak" type="shared" />
+	<export function="getSpawnPosition" type="server" />
+</meta>

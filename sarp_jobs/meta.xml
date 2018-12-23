@@ -1,0 +1,7 @@
+<meta>
+	<!--server-->
+	<script src="server/warehouse.lua" type="server" />
+
+	<!--client-->
+	<script src="client/warehouse.lua" type="client" />
+</meta>

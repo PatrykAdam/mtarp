@@ -1,0 +1,33 @@
+<meta>
+	<!--server-->
+	<script src="server/main.lua" type="server" />
+	
+	<!--client-->
+	<script src="client/streamer.luac" type="client" />
+	<script src="client/editor.luac" type="client" />
+	<script src="client/texture.luac" type="client" />
+	<script src="client/gate.luac" type="client" />
+	
+	<!--assets-->
+	<file src="assets/texture.fx" type="client" />
+	<file src="assets/1.png" />
+	<file src="assets/2.png" />
+	<file src="assets/3.png" />
+	<file src="assets/4.png" />
+	<file src="assets/5.png" />
+	<file src="assets/6.png" />
+	<file src="assets/7.png" />
+	<file src="assets/8.png" />
+	<file src="assets/9.png" />
+	<file src="assets/10.png" />
+	<file src="assets/11.png" />
+	<file src="assets/12.png" />
+	<file src="assets/13.png" />
+	<file src="assets/14.png" />
+	<file src="assets/15.png" />
+	<file src="assets/16.png" />
+	<file src="assets/17.png" />
+	
+	<!--export-->
+	<export function="createNoEditableObject" type="server" />
+</meta>

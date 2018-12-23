@@ -1,0 +1,16 @@
+<meta>
+	<!--server-->
+	<script src="server/notify.lua" type="server" />
+	
+	<!--client-->
+	<script src="client/notify.luac" type="client" />
+	
+	<!--assets-->
+	<file src="assets/sound.mp3" />
+	<file src="assets/notificationGUI.png" />
+	<file src="assets/Lato-Regular.ttf" />
+	
+	<!--export-->
+	<export function="addNotify" type="client" />
+	<export function="addNotify" type="server" />
+</meta>

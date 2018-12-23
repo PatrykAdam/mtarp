@@ -1,0 +1,34 @@
+<level>
+	<group id=9>
+		<level value=1>
+			<repairTime>100</repairTime>
+			<paintTime>100</paintTime>
+			<orderPrice>100</orderPrice>
+			<addComponent>false</addComponent>
+		</level>
+		<level value=2>
+			<repairTime>80</repairTime>
+			<paintTime>80</paintTime>
+			<orderPrice>90</orderPrice>
+			<addComponent>false</addComponent>
+		</level>
+		<level value=3>
+			<repairTime>70</repairTime>
+			<paintTime>70</paintTime>
+			<orderPrice>85</orderPrice>
+			<addComponent>false</addComponent>
+		</level>
+		<level value=4>
+			<repairTime>70</repairTime>
+			<paintTime>70</paintTime>
+			<orderPrice>80</orderPrice>
+			<addComponent>true</addComponent>
+		</level>
+		<level value=5>
+			<repairTime>60</repairTime>
+			<paintTime>60</paintTime>
+			<orderPrice>75</orderPrice>
+			<addComponent>true</addComponent>
+		</level>
+	</group>
+</level>

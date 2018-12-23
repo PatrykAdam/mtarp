@@ -1,0 +1,272 @@
+﻿<meta>
+	<!-- server-->
+	<script src="server/admin.lua" type="server" />
+	<script src="server/functions.lua" type="server" />
+	<script src="server/group.lua" type="server" />
+	<script src="server/interaction.lua" type="server" />
+	<script src="server/main.lua" type="server" />
+	<script src="server/manage.lua" type="server" />
+	<script src="server/tuning.lua" type="server" />
+
+	<!--client-->
+	<script src="client/newCounter.luac" type="client" />
+	<script src="client/manage.luac" type="client" />
+	<script src="client/main.luac" type="client" />
+	<script src="client/audio.luac" type="client" />
+	<script src="client/indicator.luac" type="client" />
+	<script src="client/tempomat.luac" type="client" />
+	<script src="client/window.lua" type="client" />
+
+	<!--shared-->
+	<script src="shared.lua" type="shared" cache="false" />
+
+	<!--export-->
+	<export function="getVehicleMaxFuel" type="shared" />
+	<export function="getVehicleUID" type="server" />
+	<export function="isVehicleOwner" type="server" />
+	<export function="changeVehicleOwner" type="server" />
+	<export function="getVehicleData" type="server" />
+	<export function="getPlayerVehicles" type="server" />
+	<export function="setVehicleData" type="server" />
+	<export function="getNearestVehicle" type="server" />
+	<export function="createVeh" type="server" />
+	<export function="setVehicleSpawnState" type="server" />
+	<export function="getDynamicGroupVehicles" type="server" />
+
+	<!--assets-->
+	<file src="assets/HelveticaNeue-Bold.ttf" />
+	<file src="assets/400.jpg" />
+	<file src="assets/401.jpg" />
+	<file src="assets/402.jpg" />
+	<file src="assets/403.jpg" />
+	<file src="assets/404.jpg" />
+	<file src="assets/vehiclelights128.png" />
+	<file src="assets/vehiclelightson128.png" />
+	<file src="assets/405.jpg" />
+	<file src="assets/406.jpg" />
+	<file src="assets/407.jpg" />
+	<file src="assets/408.jpg" />
+	<file src="assets/409.jpg" />
+	<file src="assets/410.jpg" />
+	<file src="assets/411.jpg" />
+	<file src="assets/412.jpg" />
+	<file src="assets/413.jpg" />
+	<file src="assets/414.jpg" />
+	<file src="assets/415.jpg" />
+	<file src="assets/416.jpg" />
+	<file src="assets/417.jpg" />
+	<file src="assets/418.jpg" />
+	<file src="assets/419.jpg" />
+	<file src="assets/420.jpg" />
+	<file src="assets/421.jpg" />
+	<file src="assets/422.jpg" />
+	<file src="assets/423.jpg" />
+	<file src="assets/424.jpg" />
+	<file src="assets/425.jpg" />
+	<file src="assets/426.jpg" />
+	<file src="assets/427.jpg" />
+	<file src="assets/428.jpg" />
+	<file src="assets/429.jpg" />
+	<file src="assets/430.jpg" />
+	<file src="assets/431.jpg" />
+	<file src="assets/432.jpg" />
+	<file src="assets/433.jpg" />
+	<file src="assets/434.jpg" />
+	<file src="assets/435.jpg" />
+	<file src="assets/436.jpg" />
+	<file src="assets/437.jpg" />
+	<file src="assets/438.jpg" />
+	<file src="assets/439.jpg" />
+	<file src="assets/440.jpg" />
+	<file src="assets/441.jpg" />
+	<file src="assets/442.jpg" />
+	<file src="assets/443.jpg" />
+	<file src="assets/444.jpg" />
+	<file src="assets/445.jpg" />
+	<file src="assets/446.jpg" />
+	<file src="assets/447.jpg" />
+	<file src="assets/448.jpg" />
+	<file src="assets/449.jpg" />
+	<file src="assets/450.jpg" />
+	<file src="assets/451.jpg" />
+	<file src="assets/452.jpg" />
+	<file src="assets/453.jpg" />
+	<file src="assets/454.jpg" />
+	<file src="assets/455.jpg" />
+	<file src="assets/456.jpg" />
+	<file src="assets/457.jpg" />
+	<file src="assets/458.jpg" />
+	<file src="assets/459.jpg" />
+	<file src="assets/460.jpg" />
+	<file src="assets/461.jpg" />
+	<file src="assets/462.jpg" />
+	<file src="assets/463.jpg" />
+	<file src="assets/464.jpg" />
+	<file src="assets/465.jpg" />
+	<file src="assets/466.jpg" />
+	<file src="assets/467.jpg" />
+	<file src="assets/468.jpg" />
+	<file src="assets/469.jpg" />
+	<file src="assets/470.jpg" />
+	<file src="assets/471.jpg" />
+	<file src="assets/472.jpg" />
+	<file src="assets/473.jpg" />
+	<file src="assets/474.jpg" />
+	<file src="assets/475.jpg" />
+	<file src="assets/476.jpg" />
+	<file src="assets/477.jpg" />
+	<file src="assets/478.jpg" />
+	<file src="assets/479.jpg" />
+	<file src="assets/480.jpg" />
+	<file src="assets/481.jpg" />
+	<file src="assets/482.jpg" />
+	<file src="assets/483.jpg" />
+	<file src="assets/484.jpg" />
+	<file src="assets/485.jpg" />
+	<file src="assets/486.jpg" />
+	<file src="assets/487.jpg" />
+	<file src="assets/488.jpg" />
+	<file src="assets/489.jpg" />
+	<file src="assets/490.jpg" />
+	<file src="assets/491.jpg" />
+	<file src="assets/492.jpg" />
+	<file src="assets/493.jpg" />
+	<file src="assets/494.jpg" />
+	<file src="assets/495.jpg" />
+	<file src="assets/496.jpg" />
+	<file src="assets/497.jpg" />
+	<file src="assets/498.jpg" />
+	<file src="assets/499.jpg" />
+	<file src="assets/500.jpg" />
+	<file src="assets/501.jpg" />
+	<file src="assets/502.jpg" />
+	<file src="assets/503.jpg" />
+	<file src="assets/504.jpg" />
+	<file src="assets/505.jpg" />
+	<file src="assets/506.jpg" />
+	<file src="assets/507.jpg" />
+	<file src="assets/508.jpg" />
+	<file src="assets/509.jpg" />
+	<file src="assets/510.jpg" />
+	<file src="assets/511.jpg" />
+	<file src="assets/512.jpg" />
+	<file src="assets/513.jpg" />
+	<file src="assets/514.jpg" />
+	<file src="assets/515.jpg" />
+	<file src="assets/516.jpg" />
+	<file src="assets/517.jpg" />
+	<file src="assets/518.jpg" />
+	<file src="assets/519.jpg" />
+	<file src="assets/520.jpg" />
+	<file src="assets/521.jpg" />
+	<file src="assets/522.jpg" />
+	<file src="assets/523.jpg" />
+	<file src="assets/524.jpg" />
+	<file src="assets/525.jpg" />
+	<file src="assets/526.jpg" />
+	<file src="assets/527.jpg" />
+	<file src="assets/528.jpg" />
+	<file src="assets/529.jpg" />
+	<file src="assets/530.jpg" />
+	<file src="assets/531.jpg" />
+	<file src="assets/532.jpg" />
+	<file src="assets/533.jpg" />
+	<file src="assets/534.jpg" />
+	<file src="assets/535.jpg" />
+	<file src="assets/536.jpg" />
+	<file src="assets/537.jpg" />
+	<file src="assets/538.jpg" />
+	<file src="assets/539.jpg" />
+	<file src="assets/540.jpg" />
+	<file src="assets/541.jpg" />
+	<file src="assets/542.jpg" />
+	<file src="assets/543.jpg" />
+	<file src="assets/544.jpg" />
+	<file src="assets/545.jpg" />
+	<file src="assets/546.jpg" />
+	<file src="assets/547.jpg" />
+	<file src="assets/548.jpg" />
+	<file src="assets/549.jpg" />
+	<file src="assets/550.jpg" />
+	<file src="assets/551.jpg" />
+	<file src="assets/552.jpg" />
+	<file src="assets/553.jpg" />
+	<file src="assets/554.jpg" />
+	<file src="assets/555.jpg" />
+	<file src="assets/556.jpg" />
+	<file src="assets/557.jpg" />
+	<file src="assets/558.jpg" />
+	<file src="assets/559.jpg" />
+	<file src="assets/560.jpg" />
+	<file src="assets/561.jpg" />
+	<file src="assets/562.jpg" />
+	<file src="assets/563.jpg" />
+	<file src="assets/564.jpg" />
+	<file src="assets/565.jpg" />
+	<file src="assets/566.jpg" />
+	<file src="assets/567.jpg" />
+	<file src="assets/568.jpg" />
+	<file src="assets/569.jpg" />
+	<file src="assets/570.jpg" />
+	<file src="assets/571.jpg" />
+	<file src="assets/572.jpg" />
+	<file src="assets/573.jpg" />
+	<file src="assets/574.jpg" />
+	<file src="assets/575.jpg" />
+	<file src="assets/576.jpg" />
+	<file src="assets/577.jpg" />
+	<file src="assets/578.jpg" />
+	<file src="assets/579.jpg" />
+	<file src="assets/580.jpg" />
+	<file src="assets/581.jpg" />
+	<file src="assets/582.jpg" />
+	<file src="assets/583.jpg" />
+	<file src="assets/584.jpg" />
+	<file src="assets/585.jpg" />
+	<file src="assets/586.jpg" />
+	<file src="assets/587.jpg" />
+	<file src="assets/588.jpg" />
+	<file src="assets/589.jpg" />
+	<file src="assets/590.jpg" />
+	<file src="assets/591.jpg" />
+	<file src="assets/592.jpg" />
+	<file src="assets/593.jpg" />
+	<file src="assets/594.jpg" />
+	<file src="assets/595.jpg" />
+	<file src="assets/596.jpg" />
+	<file src="assets/597.jpg" />
+	<file src="assets/598.jpg" />
+	<file src="assets/599.jpg" />
+	<file src="assets/600.jpg" />
+	<file src="assets/601.jpg" />
+	<file src="assets/602.jpg" />
+	<file src="assets/603.jpg" />
+	<file src="assets/604.jpg" />
+	<file src="assets/605.jpg" />
+	<file src="assets/606.jpg" />
+	<file src="assets/607.jpg" />
+	<file src="assets/608.jpg" />
+	<file src="assets/609.jpg" />
+	<file src="assets/610.jpg" />
+	<file src="assets/611.jpg" />
+	<file src="assets/0.jpg" />
+	<file src="assets/licznik.png" />
+	<file src="assets/wskaznik.png" />
+	<file src="assets/silnik.png" />
+	<file src="assets/reczny.png" />
+	<file src="assets/swiatla.png" />
+	<file src="assets/awaryjne.png" />
+	<file src="assets/lewy.png" />
+	<file src="assets/prawy.png" />
+	<file src="assets/paliwo.png" />
+	<file src="assets/dmgsilnik.png" />
+	<file src="assets/onsilnik.png" />
+	<file src="assets/onreczny.png" />
+	<file src="assets/onswiatla.png" />
+	<file src="assets/onawaryjne.png" />
+	<file src="assets/onlewy.png" />
+	<file src="assets/onprawy.png" />
+	<file src="assets/onpaliwo.png" />
+	<file src="assets/Speed-Crazy.ttf" />
+	<file src="assets/test.fx" />
+</meta>

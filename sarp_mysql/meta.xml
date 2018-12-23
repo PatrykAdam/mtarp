@@ -1,0 +1,11 @@
+<meta>
+	<!--server-->
+	<min_mta_version client="1.5.5" server="1.5.5" />
+	<script src="server/mysql.lua" type="server" />
+
+	<!--export-->
+	<export function="mysql_check" type="server" />
+	<export function="mysql_result" type="server" />
+	<export function="mysql_change" type="server" />
+	<export function="mysql_create" type="server" />
+</meta>

@@ -1,0 +1,56 @@
+<meta>
+	<!--server-->
+	<script src="server/interactions.lua" type="server" />
+	
+	<!--client-->
+	<script src="client/interactions.luac" type="client" />
+	<script src="client/transaction.luac" type="client" />
+	
+	<!--assets-->
+	<file src="assets/celownik.png" />
+	<file src="assets/active_hex.png" />
+	<file src="assets/inactive_hex.png" />
+	<file src="assets/Lato-Regular.ttf" />
+	<file src="assets/aktywne/active_pojazdopcje.png" />
+	<file src="assets/aktywne/active_carmask.png" />
+	<file src="assets/aktywne/active_carlock.png" />
+	<file src="assets/aktywne/active_engine.png" />
+	<file src="assets/aktywne/active_lights.png" />
+	<file src="assets/aktywne/active_cartrunk.png" />
+	<file src="assets/aktywne/active_windows.png" />
+	<file src="assets/aktywne/active_atm.png" />
+	<file src="assets/aktywne/active_cashin.png" />
+	<file src="assets/aktywne/active_cashout.png" />
+	<file src="assets/aktywne/active_cuff.png" />
+	<file src="assets/aktywne/active_drzwiopcje.png" />
+	<file src="assets/aktywne/active_givecash.png" />
+	<file src="assets/aktywne/active_kickdoor.png" />
+	<file src="assets/aktywne/active_vcard.png" />
+	<file src="assets/aktywne/active_search.png" />
+	<file src="assets/aktywne/active_postacopcje.png" />
+	<file src="assets/aktywne/active_knockdoor.png" />
+	<file src="assets/aktywne/active_hey.png" />
+	<file src="assets/aktywne/active_handbrake.png" />
+	<file src="assets/aktywne/active_barrier.png" />
+	<file src="assets/aktywne/active_trafficbarrier.png" />
+	<file src="assets/nieaktywne/inactive_carmask.png" />
+	<file src="assets/nieaktywne/inactive_carlock.png" />
+	<file src="assets/nieaktywne/inactive_engine.png" />
+	<file src="assets/nieaktywne/inactive_lights.png" />
+	<file src="assets/nieaktywne/inactive_cartrunk.png" />
+	<file src="assets/nieaktywne/inactive_windows.png" />
+	<file src="assets/nieaktywne/inactive_atm.png" />
+	<file src="assets/nieaktywne/inactive_cashin.png" />
+	<file src="assets/nieaktywne/inactive_cashout.png" />
+	<file src="assets/nieaktywne/inactive_cuff.png" />
+	<file src="assets/nieaktywne/inactive_givecash.png" />
+	<file src="assets/nieaktywne/inactive_hey.png" />
+	<file src="assets/nieaktywne/inactive_kickdoor.png" />
+	<file src="assets/nieaktywne/inactive_knockdoor.png" />
+	<file src="assets/nieaktywne/inactive_vcard.png" />
+	<file src="assets/nieaktywne/inactive_search.png" />
+	<file src="assets/nieaktywne/inactive_opendoor.png" />
+	<file src="assets/nieaktywne/inactive_handbrake.png" />
+	<file src="assets/nieaktywne/inactive_barrier.png" />
+	<file src="assets/nieaktywne/inactive_trafficbarrier.png" />
+</meta>

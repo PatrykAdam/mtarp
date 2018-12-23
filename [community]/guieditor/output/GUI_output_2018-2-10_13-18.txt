@@ -1,0 +1,95 @@
+
+GUIEditor = {
+    tab = {},
+    label = {},
+    tabpanel = {},
+    edit = {},
+    gridlist = {},
+    window = {},
+    button = {},
+    combobox = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+local screenW, screenH = guiGetScreenSize()
+        GUIEditor.window[1] = guiCreateWindow((screenW - 407) / 2, (screenH - 371) / 2, 407, 371, "Zarządzanie grupami", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.tabpanel[1] = guiCreateTabPanel(10, 24, 377, 306, false, GUIEditor.window[1])
+
+        GUIEditor.tab[1] = guiCreateTab("Stwórz grupe", GUIEditor.tabpanel[1])
+
+        GUIEditor.label[1] = guiCreateLabel(17, 22, 128, 30, "Nazwa:", false, GUIEditor.tab[1])
+        guiLabelSetHorizontalAlign(GUIEditor.label[1], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[1], "center")
+        GUIEditor.edit[1] = guiCreateEdit(145, 25, 193, 27, "", false, GUIEditor.tab[1])
+        GUIEditor.label[2] = guiCreateLabel(17, 102, 128, 30, "Typ:", false, GUIEditor.tab[1])
+        guiLabelSetHorizontalAlign(GUIEditor.label[2], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[2], "center")
+        GUIEditor.combobox[1] = guiCreateComboBox(145, 107, 195, 180, "", false, GUIEditor.tab[1])
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Government")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Police")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Medical")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Gang")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Ściganci")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Mafia")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Gastronomia")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Taxi")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Workshop")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Ochrona")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Siłownia")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "News")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "FBI")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Club")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Logistic")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Casino")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Lambard")
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Family")
+        GUIEditor.label[3] = guiCreateLabel(17, 62, 128, 30, "Tag:", false, GUIEditor.tab[1])
+        guiLabelSetHorizontalAlign(GUIEditor.label[3], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[3], "center")
+        GUIEditor.edit[2] = guiCreateEdit(145, 65, 193, 27, "", false, GUIEditor.tab[1])
+        GUIEditor.label[4] = guiCreateLabel(17, 142, 128, 30, "Kolor:", false, GUIEditor.tab[1])
+        guiLabelSetHorizontalAlign(GUIEditor.label[4], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[4], "center")
+        GUIEditor.button[1] = guiCreateButton(145, 142, 195, 30, "Naciśnij aby zmienić.", false, GUIEditor.tab[1])
+        guiSetProperty(GUIEditor.button[1], "NormalTextColour", "FFFEF9FB")
+        GUIEditor.label[5] = guiCreateLabel(17, 182, 128, 30, "Pieniądze w banku:", false, GUIEditor.tab[1])
+        guiLabelSetHorizontalAlign(GUIEditor.label[5], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[5], "center")
+        GUIEditor.edit[3] = guiCreateEdit(145, 185, 193, 27, "", false, GUIEditor.tab[1])
+        GUIEditor.button[2] = guiCreateButton(117, 235, 158, 34, "Stwórz grupe", false, GUIEditor.tab[1])
+        GUIEditor.label[6] = guiCreateLabel(42, -103, 128, 30, "Nazwa:", false, GUIEditor.tab[1])
+        guiLabelSetHorizontalAlign(GUIEditor.label[6], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[6], "center")
+
+        GUIEditor.tab[2] = guiCreateTab("Edytuj grupe", GUIEditor.tabpanel[1])
+
+        GUIEditor.gridlist[1] = guiCreateGridList(10, 10, 357, 94, false, GUIEditor.tab[2])
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Nazwa", 0.9)
+        GUIEditor.label[7] = guiCreateLabel(14, 113, 137, 32, "Nazwa:", false, GUIEditor.tab[2])
+        guiLabelSetHorizontalAlign(GUIEditor.label[7], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[7], "center")
+        GUIEditor.label[8] = guiCreateLabel(14, 145, 137, 32, "Tag:", false, GUIEditor.tab[2])
+        guiLabelSetHorizontalAlign(GUIEditor.label[8], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[8], "center")
+        GUIEditor.label[9] = guiCreateLabel(14, 177, 137, 32, "Typ:", false, GUIEditor.tab[2])
+        guiLabelSetHorizontalAlign(GUIEditor.label[9], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[9], "center")
+        GUIEditor.label[10] = guiCreateLabel(14, 209, 137, 32, "Kolor:", false, GUIEditor.tab[2])
+        guiLabelSetHorizontalAlign(GUIEditor.label[10], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[10], "center")
+        GUIEditor.edit[4] = guiCreateEdit(161, 119, 185, 22, "", false, GUIEditor.tab[2])
+        GUIEditor.edit[5] = guiCreateEdit(161, 150, 185, 22, "", false, GUIEditor.tab[2])
+
+        GUIEditor.gridlist[2] = guiCreateGridList(1, 37, 15, 15, false, GUIEditor.edit[5])
+
+        GUIEditor.combobox[2] = guiCreateComboBox(161, 182, 185, 93, "", false, GUIEditor.tab[2])
+        GUIEditor.button[3] = guiCreateButton(161, 213, 185, 23, "Naciśnij aby zmienić.", false, GUIEditor.tab[2])
+        GUIEditor.button[4] = guiCreateButton(14, 249, 157, 22, "Zapisz zmiany", false, GUIEditor.tab[2])
+        GUIEditor.button[5] = guiCreateButton(210, 249, 157, 22, "Usuń grupe", false, GUIEditor.tab[2])
+
+
+        GUIEditor.button[6] = guiCreateButton(15, 340, 372, 21, "Zamknij", false, GUIEditor.window[1])    
+    end
+)

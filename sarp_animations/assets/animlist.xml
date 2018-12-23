@@ -1,0 +1,29 @@
+<root>
+    <anim id="1" isLoop="false" duration="-1" upgradePos="true" name="/bar1" category="Barowe" block="BAR" anim="BARman_idle" freeze="1"></anim>
+    <anim id="2" isLoop="true" duration="-1" upgradePos="false" name="/naprawa" category="Postać" block="CAR" anim="Fixn_Car_loop" freeze="1"></anim>
+    <anim id="3" isLoop="false" duration="-1" upgradePos="true" name="/siad" category="Postać" block="beach" anim="ParkSit_M_loop" freeze="1"></anim>
+    <anim id="4" isLoop="true" duration="-1" upgradePos="true" name="/lez" category="Leżenie" block="beach" anim="bather" freeze="0"></anim>
+    <anim id="5" isLoop="false" duration="-1" upgradePos="true" name="/lez2" category="Leżenie" block="beach" anim="Lay_Bac_Loop" freeze="1"></anim>
+    <anim id="6" isLoop="false" duration="-1" upgradePos="true" name="/lez3" category="Leżenie" block="beach" anim="ParkSit_W_loop" freeze="1"></anim>
+    <anim id="7" isLoop="false" duration="-1" upgradePos="true" name="/lez4" category="Leżenie" block="beach" anim="SitnWait_loop_W" freeze="1"></anim>
+    <anim id="8" isLoop="false" duration="-1" upgradePos="true" name="/spij" category="Leżenie" block="Crack" anim="crckidle2" freeze="1"></anim>
+    <anim id="9" isLoop="false" duration="-1" upgradePos="true" name="/spij2" category="Leżenie" block="Crack" anim="crckidle4" freeze="1"></anim>
+    <anim id="10" isLoop="false" duration="-1" upgradePos="true" name="/padnij" category="Leżenie" block="FIGHT_E" anim="Hit_fightkick_B" freeze="1"></anim>
+    <anim id="11" isLoop="false" duration="-1" upgradePos="true" name="/stack1" category="Stack" interrupt="false" block="GHANDS" anim="gsign1" freeze="0"></anim>
+    <anim id="12" isLoop="false" duration="-1" upgradePos="true" name="/stack2" category="Stack" interrupt="false" block="GHANDS" anim="gsign1LH" freeze="0"></anim>
+    <anim id="13" isLoop="false" duration="-1" upgradePos="true" name="/stack3" category="Stack" interrupt="false" block="GHANDS" anim="gsign2" freeze="0"></anim>
+    <anim id="14" isLoop="false" duration="-1" upgradePos="true" name="/stack4" category="Stack" interrupt="false" block="GHANDS" anim="gsign2LH" freeze="0"></anim>
+    <anim id="15"  isLoop="false" duration="-1" upgradePos="true" name="/stack5" category="Stack" interrupt="false" block="GHANDS" anim="gsign3" freeze="0"></anim>
+    <anim id="16" isLoop="false" duration="-1" upgradePos="true" name="/stack6" category="Stack" interrupt="false" block="GHANDS" anim="gsign3LH" freeze="0"></anim>
+    <anim id="17" isLoop="false" duration="-1" upgradePos="true" name="/stack7" category="Stack" interrupt="false" block="GHANDS" anim="gsign4" freeze="0"></anim>
+    <anim id="18" isLoop="false" duration="-1" upgradePos="true" name="/stack8" category="Stack" interrupt="false" block="GHANDS" anim="gsign4LH" freeze="0"></anim>
+    <anim id="19" isLoop="false" duration="-1" upgradePos="true" name="/stack9" category="Stack" interrupt="false" block="GHANDS" anim="gsign5" freeze="0"></anim>
+    <anim id="20" isLoop="false" duration="-1" upgradePos="true" name="/stack10" category="Stack" interrupt="false" block="GHANDS" anim="gsign5LH" freeze="0"></anim>
+    <anim id="21" isLoop="false" duration="-1" upgradePos="true" name="/stack11" category="Stack" interrupt="false" block="LOWRIDER" anim="prtial_gngtlkB" freeze="0"></anim>
+    <anim id="22" isLoop="false" duration="-1" upgradePos="true" name="/stack12" category="Stack" interrupt="false" block="LOWRIDER" anim="prtial_gngtlkC" freeze="0"></anim>
+    <anim id="23" isLoop="false" duration="-1" upgradePos="true" name="/stack13" category="Stack" interrupt="false" block="LOWRIDER" anim="prtial_gngtlkD" freeze="0"></anim>
+    <anim id="24" isLoop="false" duration="-1" upgradePos="true" name="/stack14" category="Stack" interrupt="false" block="LOWRIDER" anim="prtial_gngtlkE" freeze="0"></anim>
+    <anim id="25" isLoop="false" duration="-1" upgradePos="true" name="/stack15" category="Stack" interrupt="false" block="LOWRIDER" anim="prtial_gngtlkF" freeze="0"></anim>
+    <anim id="26" isLoop="false" duration="-1" upgradePos="true" name="/stack16" category="Stack" interrupt="false" block="LOWRIDER" anim="prtial_gngtlkG" freeze="0"></anim>
+    <anim id="27" isLoop="false" duration="-1" upgradePos="true" name="/stack17" category="Stack" interrupt="false" block="LOWRIDER" anim="prtial_gngtlkH" freeze="0"></anim>
+</root>

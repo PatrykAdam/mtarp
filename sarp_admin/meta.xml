@@ -1,0 +1,26 @@
+<meta>
+	<!--server-->
+	<min_mta_version client="1.5.5" server="1.5.5" />
+	<script src="server/aj.lua" type="server" />
+	<script src="server/cmd.lua" type="server" />
+	<script src="server/functions.lua" type="server" />
+	<script src="server/report.lua" type="server" />
+	<script src="server/main.lua" type="server" />
+	
+	<!--client-->
+	<script src="client/aj.luac" type="client" />
+	<script src="client/penalty.luac" type="client" />
+	<script src="client/report.luac" type="client" />
+	<script src="client/cmd.luac" type="client" />
+
+	<!--shared-->
+	<script src="shared.lua" type="shared" />
+
+	<!--assets-->
+	<file src="assets/penalty.png" />
+	<file src="assets/shader.fx" />
+	
+	<!--export-->
+	<export function="getAdminRank" type="server" />
+	<export function="getPlayerPermission" type="shared" />
+</meta>

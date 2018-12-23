@@ -1,0 +1,81 @@
+<meta>
+	<!-- server-->
+	<script src="server/main.lua" type="server" />
+	<script src="server/admin.lua" type="server" />
+	<script src="server/functions.lua" type="server" />
+	<script src="server/manage.lua" type="server" />
+	<script src="server/food.lua" type="server" />
+	<script src="server/smoke.lua" type="server" />
+	<script src="server/disc.lua" type="server" />
+	<script src="server/boombox.lua" type="server" />
+	<script src="server/ammo.lua" type="server" />
+	<script src="server/alcohol.lua" type="server" />
+
+	<!--client-->
+	<script src="client/design.luac" type="client" />
+	<script src="client/food.luac" type="client" />
+	<script src="client/smoke.luac" type="client" />
+	<script src="client/disc.luac" type="client" />
+	<script src="client/boombox.luac" type="client" />
+	<script src="client/ammo.luac" type="client" />
+	<script src="client/mp3.luac" type="client" />
+	<script src="client/alcohol/main.luac" type="client" />
+	<script src="client/alcohol/manager.luac" type="client" />
+	<script src="client/drug.lua" type="client" />
+	<script src="client/phone/main.lua" type="client" />
+
+	<!--shared-->
+	<script src="shared.lua" type="shared" />
+
+	<!--export-->
+	<export function="createItem" type="server" />
+	<export function="getItemUID" type="client" />
+	<export function="getItemData" type="server" />
+	<export function="isItemOwner" type="server" />
+	<export function="setItemData" type="server" />
+	<export function="isPlayerUseItem" type="server" />
+	<export function="items.search" type="server" />
+	<export function="getPlayerBoneObjects" type="server" />
+	<export function="getItemsData" type="server" />
+
+	<!--assets-->
+	<file src="assets/bg.png" />
+	<file src="assets/menu.png" />
+	<file src="assets/inne.png" />
+	<file src="assets/pistol.png" />
+	<file src="assets/pizza.png" />
+	<file src="assets/inne-active.png" />
+	<file src="assets/pistol-active.png" />
+	<file src="assets/pizza-active.png" />
+	<file src="assets/Lato-Regular.ttf" />
+	<file src="assets/alcohol.fx" />
+	<file src="assets/ToonShader.fx" />
+
+	<!--Telefon-->
+	<file src="assets/phone/base.png" />
+	<file src="assets/phone/background1.png" />
+	<file src="assets/phone/icon_back.png" />
+	<file src="assets/phone/icon_battery.png" />
+	<file src="assets/phone/icon_contact.png" />
+	<file src="assets/phone/icon_home.png" />
+	<file src="assets/phone/icon_message.png" />
+	<file src="assets/phone/icon_range.png" />
+	<file src="assets/phone/icon_recent.png" />
+	<file src="assets/phone/icon_settings.png" />
+	<file src="assets/phone/icon_more.png" />
+	<file src="assets/phone/icon_more2.png" />
+	<file src="assets/phone/icon_back2.png" />
+	<file src="assets/phone/icon_phone.png" />
+	<file src="assets/phone/icon_send.png" />
+	<file src="assets/phone/icon_add.png" />
+	<file src="assets/phone/avatar.png" />
+	<file src="assets/phone/call.png" />
+	<file src="assets/phone/add_contact.png" />
+	<file src="assets/phone/icon_delete.png" />
+	<file src="assets/phone/send_message.png" />
+	<file src="assets/phone/call_accept.png" />
+	<file src="assets/phone/message.png" />
+	<file src="assets/phone/Arial_Bold.ttf" />
+	<file src="assets/phone/Roboto-Light.ttf" />
+	<file src="assets/phone/Myriad_Pro_Regular.ttf" />
+</meta>

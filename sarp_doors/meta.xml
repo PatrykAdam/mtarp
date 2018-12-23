@@ -1,0 +1,31 @@
+<meta>
+	<!--client-->
+	<script src="client/info.luac" type="client" />
+	<script src="client/manage.luac" type="client" />
+	<script src="client/posession.luac" type="client" />
+	<script src="client/audio.luac" type="client" />
+
+	<!--server-->
+	<script src="server/admin.lua" type="server" />
+	<script src="server/cmd.lua" type="server" />
+	<script src="server/functions.lua" type="server" />
+	<script src="server/main.lua" type="server" />
+	<script src="server/manage.lua" type="server" />
+	
+	<!--assets-->
+	<file src="assets/infobarGUI.png" />
+	<file src="assets/locked.png" />
+	<file src="assets/house.png" />
+	<file src="assets/salon.png" />
+	<file src="assets/shop.png" />
+	<file src="assets/Lato-Regular.ttf" />
+
+	<!--export-->
+	<export function="getGroupID" type="server" />
+	<export function="isDoorOwner" type="server" />
+	<export function="getPlayerDoors" type="server" />
+	<export function="isDoorGroupType" type="server" />
+	<export function="isGroupDoor" type="server" />
+	<export function="getDoorData" type="server" />
+	<export function="getDoorElement" type="server" />
+</meta>

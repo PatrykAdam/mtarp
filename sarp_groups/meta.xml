@@ -1,0 +1,51 @@
+<meta>
+	<oop>true</oop>
+	
+	<!-- Librarry Class -->
+	<script src="shared/Classlib.lua" cache="false" type="shared"/>
+	<script src="shared/Singleton.lua" cache="false" type="shared"/>
+	<script src="shared/Class.lua" cache="false" type="shared"/>
+	<script src="shared/utf8.lua" cache="false" type="shared"/>
+
+
+	<!--server-->
+	<script src="server/admin.lua" type="server" />
+	<script src="server/cmd.lua" type="server" />
+	<script src="server/functions.lua" type="server" />
+	<script src="server/main.lua" type="server" />
+	<script src="server/manage.lua" type="server" />
+	<script src="server/payday.lua" type="server" />
+	<script src="server/workshop.lua" type="server" />
+	<script src="server/news.lua" type="server" />
+	<script src="server/bots.lua" type="server" />
+	<script src="server/orders.lua" type="server" />
+	
+	<!--client-->
+	<script src="client/gui.luac" type="client" />
+	<script src="client/policeRadar.luac" type="client" />
+	<script src="client/workshop.lua" type="client" />
+	<script src="client/bots.luac" type="client" />
+	<script src="client/orders.lua" type="client" />
+	
+	<!--shared-->
+	<script src="shared.lua" type="shared" />
+	
+	<!--assets-->
+	<file src="assets/bebas-neue.ttf" />
+	<file src="assets/pdradar.png" />
+	<file src="assets/Lato-Bold.ttf" type="client"/>
+	<file src="assets/background.png" type="client"/>	
+	
+	<!--export-->
+	<export function="getGroupType" type="shared" />
+	<export function="getAdminRank" type="server" />
+	<export function="getGroupData" type="server" />
+	<export function="haveGroupPermission" type="server" />
+	<export function="isGroup" type="server" />
+	<export function="isPlayerInGroup" type="shared" />
+	<export function="member_add" type="server" />
+	<export function="isDutyInGroupType" type="server" />
+	<export function="giveGroupCash" type="server" />
+	<export function="haveGroupFlags" type="server" />
+	<export function="getGroupLevelValue" type="server" />
+</meta>

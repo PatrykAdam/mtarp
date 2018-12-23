@@ -1,0 +1,17 @@
+<meta>
+	<!-- server-->
+	<script src="server/main.lua" type="server" />
+	<script src="server/functions.lua" type="server" />
+	<script src="server/admin.lua" type="server" />
+	<script src="server/cmd.lua" type="server" />
+
+	<!--client-->
+	<script src="client/admin.luac" type="client" />
+	<script src="client/fuelStation.luac" type="client" />
+
+	<!--shared-->
+	<script src="shared.lua" type="shared" />
+
+	<!--export-->
+	<export function="haveZonePermission" type="server" />
+</meta>

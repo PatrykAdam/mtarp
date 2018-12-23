@@ -1,0 +1,11 @@
+<meta>
+	<!--client-->
+	<script src="client/blur.luac" type="client" />
+
+	<!--assets-->
+	<file src="assets/blurV.fx" type="client" />
+	<file src="assets/blurH.fx" type="client" />
+	
+	<!--export-->
+	<export function="setBlurStatus" type="client" />
+</meta>

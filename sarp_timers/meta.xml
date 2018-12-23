@@ -1,0 +1,4 @@
+<meta>
+	<!--server-->
+	<script src="server/timer.lua" type="server" />
+</meta>
