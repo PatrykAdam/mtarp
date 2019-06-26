@@ -11,6 +11,7 @@ function adrzwi(playerid, cmd, cmd2, ...)
 	if not exports.sarp_admin:getPlayerPermission(playerid, 8) then return end
 	
 	local more = {...}
+	print(cmd2)
 
 	if cmd2 == 'stworz' then
 		local pX, pY, pZ = getElementPosition( playerid )
@@ -30,14 +31,16 @@ function adrzwi(playerid, cmd, cmd2, ...)
 		if not element then
 			return exports.sarp_notify:addNotify(playerid, "Nieprawidłowe id drzwi." )
 		end
+		print(element)
+
 		table.remove(more, 1)
 		local name = table.concat(more, " ")
 		if name and string.len(name) > 0 then
-			setElemenData(element, "doors:name", name)
+			setElementData(element, "doors:name", name)
 			saveDoor(uid, 'desc')
 			exports.sarp_notify:addNotify(playerid, "Pomyslnie zmieniono nazwę drzwi (UID: " .. uid .. ")" )
 		else
-			return exports.sarp_notify:addNotify(playerid, "Uzyj: /ad nazwa ".. uid1 .. " [nazwa]" )
+			return exports.sarp_notify:addNotify(playerid, "Uzyj: /ad nazwa ".. uid .. " [nazwa]" )
 		end
 	elseif cmd2 == 'desc' or cmd2 == 'opis' then
 		local uid = tonumber(more[1])
@@ -53,11 +56,11 @@ function adrzwi(playerid, cmd, cmd2, ...)
 		table.remove(more, 1)
 		local desc = table.concat(more, " ")
 		if desc and string.len(desc) > 0 then
-			setElemenData(element, "doors:description", desc)
+			setElementData(element, "doors:description", desc)
 			saveDoor(uid, 'desc')
 			exports.sarp_notify:addNotify(playerid, "Pomyslnie zmieniono opis drzwi (UID: " .. uid .. ")" )
 		else
-			return exports.sarp_notify:addNotify(playerid, "Uzyj: /ad nazwa ".. uid1 .. " [nazwa]" )
+			return exports.sarp_notify:addNotify(playerid, "Uzyj: /ad nazwa ".. uid .. " [nazwa]" )
 		end
 	elseif cmd2 == 'usun' then
 		local uid = tonumber(more[1])
