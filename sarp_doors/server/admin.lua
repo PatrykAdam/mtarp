@@ -11,7 +11,6 @@ function adrzwi(playerid, cmd, cmd2, ...)
 	if not exports.sarp_admin:getPlayerPermission(playerid, 8) then return end
 	
 	local more = {...}
-	print(cmd2)
 
 	if cmd2 == 'stworz' then
 		local pX, pY, pZ = getElementPosition( playerid )
@@ -31,7 +30,6 @@ function adrzwi(playerid, cmd, cmd2, ...)
 		if not element then
 			return exports.sarp_notify:addNotify(playerid, "Nieprawidłowe id drzwi." )
 		end
-		print(element)
 
 		table.remove(more, 1)
 		local name = table.concat(more, " ")
@@ -86,9 +84,10 @@ function adrzwi(playerid, cmd, cmd2, ...)
 		if not element then
 			return exports.sarp_notify:addNotify(playerid, "Nieprawidłowe id drzwi." )
 		end
-		local dX, dY, dZ, dRot = getElementPosition( element ), getElementData( element, "doors:posRot")
+		local dX, dY, dZ = getElementPosition( element )
+		local dRot = getElementData( element, "doors:posRot")
 		setElementPosition( playerid, dX, dY, dZ )
-		setElementRotation( playerid, 0, 0, dRot )
+		setElementRotation( playerid, 0, 0, dRot or 0 )
 		setElementDimension( playerid, getElementDimension( element ) )
 		setElementInterior( playerid, getElementInterior( element ) )
 	elseif cmd2 == 'wejscie' then
