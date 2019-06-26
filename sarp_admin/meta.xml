@@ -8,10 +8,10 @@
 	<script src="server/main.lua" type="server" />
 	
 	<!--client-->
-	<script src="client/aj.luac" type="client" />
-	<script src="client/penalty.luac" type="client" />
-	<script src="client/report.luac" type="client" />
-	<script src="client/cmd.luac" type="client" />
+	<script src="client/aj.lua" type="client" />
+	<script src="client/penalty.lua" type="client" />
+	<script src="client/report.lua" type="client" />
+	<script src="client/cmd.lua" type="client" />
 
 	<!--shared-->
 	<script src="shared.lua" type="shared" />
